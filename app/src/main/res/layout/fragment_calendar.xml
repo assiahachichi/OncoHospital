@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragmentCalendar.CalendarFragment"
+    android:background="@color/grayLight"
+    android:orientation="vertical"
+    android:id="@+id/calendar_layout"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rendezvous_item_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:background="@color/grayLight"
+        android:padding="4dp"
+        android:scrollbars="vertical"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        >
+        <Button
+            android:textSize="@dimen/text_size_button"
+            android:fontFamily="sans-serif"
+            android:id="@+id/calendar_bottom_agenda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/botton_agenda"
+            android:drawableTint="@color/white"
+            android:layout_marginRight="5dp"
+            android:drawableEnd="@drawable/ic_calendar"
+            android:drawableRight="@drawable/ic_calendar" />
+        <Button
+            android:textSize="@dimen/text_size_button"
+            android:fontFamily="sans-serif"
+            android:layout_marginLeft="0dp"
+            android:id="@+id/calendar_bottom_actualiser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/botton_actualiser"
+            android:drawableTint="@color/white"
+            android:drawableEnd="@drawable/ic_refresh"
+            android:drawableRight="@drawable/ic_calendar" />
+
+
+    </LinearLayout>
+    </RelativeLayout>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="0dp"
+    app:cardUseCompatPadding="true"
+    app:cardBackgroundColor="@color/grayLight"
+    app:cardPreventCornerOverlap="false"
+    android:padding="30sp"
+    android:layout_margin="5dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="4dp"
+        android:background="@color/grayLight"
+        android:backgroundTint="@color/grayLight">
+
+
+        <LinearLayout
+            android:background="@color/purple_700"
+            android:id="@+id/rendezvous_item_layout_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:minWidth="50dp">
+            <TextView
+                android:textSize="@dimen/text_size_small"
+                android:fontFamily="sans-serif"
+                android:background="@color/purple_700"
+
+                android:id="@+id/rendezvous_item_textView_jour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@+id/rendezvous_item_imageView"
+                android:layout_toRightOf="@+id/rendezvous_item_imageView"
+                android:backgroundTint="@color/purple_700"
+                android:text="Lun"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                 />
+            <TextView
+                android:textSize="@dimen/text_size_large"
+                android:fontFamily="sans-serif"
+                android:background="@color/purple_700"
+
+                android:id="@+id/rendezvous_item_textView_nb_jour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="0dp"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@+id/rendezvous_item_imageView"
+                android:layout_toRightOf="@+id/rendezvous_item_imageView"
+                android:backgroundTint="@color/purple_700"
+                android:text="27"
+                android:textColor="@color/white"
+                 />
+            <TextView
+                android:textSize="@dimen/text_size_small"
+                android:fontFamily="sans-serif"
+                android:id="@+id/rendezvous_item_textView_mois"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@+id/rendezvous_item_imageView"
+                android:layout_toRightOf="@+id/rendezvous_item_imageView"
+                android:background="@color/purple_700"
+                android:backgroundTint="@color/purple_700"
+                android:text="Mars"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                 />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/rendezvous_item_layout_date"
+            android:layout_toRightOf="@+id/rendezvous_item_layout_date"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp"
+
+            >
+            <TextView
+                android:textSize="@dimen/text_size_large"
+                android:fontFamily="sans-serif"
+                android:id="@+id/rendezvous_item_textView_titre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@+id/rendezvous_item_textView_heure1"
+                android:layout_toRightOf="@+id/rendezvous_item_textView_heure1"
+                android:background="@color/grayLight"
+                android:backgroundTint="@color/grayLight"
+                android:text="Chimio"
+                android:textStyle="bold"
+                android:shadowColor="@color/grayLight"
+                android:textColor="@color/purple_700"
+                 />
+
+            <TextView
+                android:textSize="@dimen/text_size_small"
+                android:fontFamily="sans-serif"
+                android:id="@+id/rendezvous_item_textView_lieu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@+id/rendezvous_item_layout_date"
+                android:layout_toRightOf="@+id/rendezvous_item_layout_date"
+                android:background="@color/grayLight"
+                android:backgroundTint="@color/grayLight"
+                android:text="OncoHospital"
+                android:textColor="@color/purple_700"
+                 />
+
+            <TextView
+                android:textSize="@dimen/text_size_small"
+                android:fontFamily="sans-serif"
+                android:id="@+id/rendezvous_item_textView_heure1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@+id/rendezvous_item_layout_date"
+                android:layout_toRightOf="@+id/rendezvous_item_layout_date"
+                android:background="@color/grayLight"
+                android:backgroundTint="@color/grayLight"
+                android:text="10:00 - 11:00"
+                android:textColor="@color/purple_700"
+                 />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

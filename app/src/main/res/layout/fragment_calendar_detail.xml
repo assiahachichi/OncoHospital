@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragmentCalendar.CalendarDetailFragment"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:backgroundTint="@color/grayLight">
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@color/purple_700"
+            android:layout_alignParentTop="true">
+
+            <ImageButton
+                android:layout_alignParentLeft="true"
+                android:background="@color/purple_700"
+
+                android:id="@+id/calendar_detail_button_text_size"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_text_format"
+
+                android:textColor="@color/white"
+                android:clickable="true"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:editable="false"
+                android:scaleType="fitCenter"
+
+                />
+            <Button
+                android:id="@+id/calendar_detail_button_previous"
+                android:layout_width="wrap_content"
+                android:text="@string/botton_precedent"
+                android:textSize="25dp"
+                android:layout_toRightOf="@+id/edit_text_size"
+                android:layout_toLeftOf="@+id/image_button_speech"
+                android:layout_toEndOf="@+id/calendar_detail_button_text_size"
+                android:layout_toStartOf="@+id/calendar_image_button_speech"
+                android:fontFamily="sans-serif"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="@color/purple_700"
+                android:drawableRight="@drawable/ic_previous"
+                />
+            <ImageButton
+                android:id="@+id/calendar_detail_image_button_speech"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:scaleType="fitCenter"
+                android:background="@color/purple_700"
+                android:backgroundTint="@color/purple_700"
+                android:src="@drawable/ic_voice"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_alignParentRight="true"
+                />
+        </RelativeLayout>
+
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:scrollbars="vertical"
+        >
+        <TextView
+            android:id="@+id/calendar_detail_title"
+            android:paddingTop="5dp"
+            android:paddingBottom="10dp"
+            android:textSize="@dimen/text_size_large"
+
+            android:layout_margin="5dp"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/purple_700"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TitleRDV"
+            />
+
+
+                <TextView
+
+                    android:layout_margin="5dp"
+                    android:textSize="@dimen/text_size_large"
+                    android:fontFamily="sans-serif"
+                    android:id="@+id/calendar_detail_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/rendezvous_item_imageView"
+                    android:layout_toRightOf="@+id/rendezvous_item_imageView"
+                    android:backgroundTint="@color/purple_700"
+                    android:text="27"
+                    android:textColor="@color/purple_700"
+                    />
+        <TextView
+
+            android:layout_margin="5dp"
+            android:textSize="@dimen/text_size_large"
+            android:fontFamily="sans-serif"
+            android:layout_gravity="center"
+            android:id="@+id/calendar_detail_hours"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/rendezvous_item_layout_date"
+            android:layout_toRightOf="@+id/rendezvous_item_layout_date"
+            android:background="@color/grayLight"
+            android:backgroundTint="@color/grayLight"
+            android:text="10:00 - 11:00"
+            android:textColor="@color/purple_700"
+            />
+
+
+
+                <TextView
+                    android:layout_margin="5dp"
+                    android:textSize="@dimen/text_size_large"
+                    android:fontFamily="sans-serif"
+                    android:layout_gravity="center"
+                    android:id="@+id/calendar_detail_location"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/rendezvous_item_layout_date"
+                    android:layout_toRightOf="@+id/rendezvous_item_layout_date"
+                    android:background="@color/grayLight"
+                    android:backgroundTint="@color/grayLight"
+                    android:text="OncoHospital"
+                    android:textColor="@color/purple_700"
+                    />
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+</ScrollView>

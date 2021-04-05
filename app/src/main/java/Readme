@@ -1,0 +1,6 @@
+IP host
+IP dans le fichier securité
+TIME du serveur
+<service android:name=".HelloService"/>
+
+<uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>

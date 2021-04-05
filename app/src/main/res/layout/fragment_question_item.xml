@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="4dp"
+    app:cardUseCompatPadding="true"
+    app:cardBackgroundColor="@color/grayLight"
+    android:padding="30sp"
+    android:layout_margin="5dp"
+    app:cardPreventCornerOverlap="false"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="4dp"
+        android:backgroundTint="@color/grayLight"
+        android:background="@color/grayLight">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="2dp"
+            android:src="@drawable/ic_question"
+            android:id="@+id/question_item_imageView"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Question"
+            android:textSize="@dimen/text_size_large"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/purple_700"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/question_item_imageView"
+            android:layout_toRightOf="@+id/question_item_imageView"
+            android:background="@color/grayLight"
+            android:backgroundTint="@color/grayLight"
+            android:id="@+id/question_item_textView"/>
+
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

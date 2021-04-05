@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    android:background="@color/grayLight">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:textSize="@dimen/text_size_small"
+            android:fontFamily="sans-serif"
+            android:id="@+id/nav_calendar"
+            android:icon="@drawable/ic_calendar"
+            android:title="@string/menu_rendezvous" />
+
+        <item
+            android:textSize="@dimen/text_size_small"
+            android:fontFamily="sans-serif"
+            android:id="@+id/nav_contacts"
+            android:icon="@drawable/ic_contact_phone_"
+
+            android:title="Contacts" />
+        <item
+            android:textSize="@dimen/text_size_small"
+            android:fontFamily="sans-serif"
+            android:id="@+id/nav_faq"
+            android:icon="@drawable/ic_question"
+            android:title="FAQ" />
+        <item
+            android:textSize="@dimen/text_size_small"
+            android:fontFamily="sans-serif"
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings"
+            android:title="@string/menu_settings" />
+    </group>
+
+
+
+</menu>

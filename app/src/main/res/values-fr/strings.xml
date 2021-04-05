@@ -1,0 +1,71 @@
+<resources>
+    <string name="Hello">Bonjour</string>
+    <string name="choose_text_size">Choisir une taille du texte</string>
+    <string name="Ok">Ok</string>
+    <string name="cancel">Annuler</string>
+
+    <string name="app_name">OncoHospital</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="menu_settings">Paramètres</string>
+    <string name="menu_rendezvous">Rendez-vous</string>
+    <string name="toast_not_connected">Veuillez-vous connecter !</string>
+
+
+    <string name="botton_actualiser">Actualiser</string>
+    <string name="botton_agenda">Agenda</string>
+    <string name="botton_precedent">Précédent</string>
+    <string name="pasRDV">Aucun rendez-vous</string>
+
+
+
+
+    <string name="PHARMACIE">Pharmacie</string>
+    <string name="ANALYSES">Analyses Sanguines</string>
+    <string name="PATCH">Pose de patch</string>
+    <string name="EMEND125">EMEND 125mg - 1 gélule</string>
+    <string name="EMEND801">EMEND 80mg - 1 gélule</string>
+    <string name="EMEND802">EMEND 80mg - 1 gélule</string>
+    <string name="PELMEG">Injection Pelmeg</string>
+
+    <string name="SOLUPRED_VEILLE_8">Solupred 2,5 cp</string>
+<string name="SOLUPRED_VEILLE_15">Solupred 2,5 cp</string>
+<string name="SOLUPRED_JOUR_8">Solupred 2,5 cp</string>
+<string name="SOLUPRED_JOUR_15">Solupred 2,5 cp</string>
+<string name="SOLUPRED_LELENDEMAIN_8">Solupred 2,5 cp</string>
+<string name="SOLUPRED_LELENDEMAIN_15">Solupred 2,5 cp</string>
+
+    <string name="toast_invalid">ID Patient ou mot de passe invalide</string>
+    <string name="toast_finished">L\'actualisation est terminée</string>
+    <string name="toast_deconnected">Problème de réseau</string>
+
+
+    <string name="fct_INSERT">Ajout d\'un rendez-vous </string>
+    <string name="fct_UPDATE">Modification d\'un rendez-vous </string>
+    <string name="fct_DELETE">Suppression d\'un rendez-vous  </string>
+
+    <string name="choose_language">Choisissez une langue :</string>
+
+    <string name="recevoir_notification">Recevoir des notifications</string>
+    <string name="utiliser_agenda">Utiliser Google Agenda</string>
+    <string name="ajouter_traitement_agenda">Ajouter des rappels de traitement dans Google Agenda</string>
+    <string name="ajouter_rappels_agenda">Ajouter des rappels dans Google Agenda</string>
+    <string name="choisir_couleur_rdv">Choisir une couleur pour les RDV dans Google Agenda</string>
+    <string name="choisir_couleur_traitement">Choisir une couleur pour les traitements dans Google Agenda</string>
+    <string name="choisir_couleur_activity">Choisir une couleur pour les activités dans Google Agenda</string>
+
+
+    <string-array name="color_name">
+        <item>Rouge</item>
+        <item>Magenta</item>
+        <item>Jaune</item>
+        <item>Vert</item>
+        <item>Cyan</item>
+        <item>Bleu</item>
+    </string-array>
+
+</resources>

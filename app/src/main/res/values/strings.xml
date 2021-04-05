@@ -1,0 +1,75 @@
+<resources>
+
+    <string name="Hello">Hello</string>
+    <string name="choose_text_size">Choose a text size</string>
+    <string name="Ok">Ok</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="app_name">OncoHospital</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_rendezvous">Appointments</string>
+    <string name="toast_not_connected">Please log in!</string>
+
+    <string name="botton_actualiser">Refresh</string>
+    <string name="botton_agenda">Calendar</string>
+    <string name="botton_precedent">Previous</string>
+    <string name="pasRDV">No appointment</string>
+
+
+    <string name="PHARMACIE">Pharmacy</string>
+    <string name="ANALYSES">Blood tests</string>
+    <string name="PATCH">EMLA patching</string>
+    <string name="EMEND125">EMEND 125mg - 1 capsule</string>
+    <string name="EMEND801">EMEND 80mg - 1 capsule</string>
+    <string name="EMEND802">EMEND 80mg - 1 capsule</string>
+    <string name="PELMEG">Pelmeg injection</string>
+
+    <string name="SOLUPRED_VEILLE_8">Solupred 2,5 tablets</string>
+    <string name="SOLUPRED_VEILLE_15">Solupred 2,5 tables</string>
+    <string name="SOLUPRED_JOUR_8">Solupred 2,5 tables</string>
+    <string name="SOLUPRED_JOUR_15">Solupred 2,5 tables</string>
+    <string name="SOLUPRED_LELENDEMAIN_8">Solupred 2,5 tables</string>
+    <string name="SOLUPRED_LELENDEMAIN_15">Solupred 2,5 tables</string>
+
+
+    <string name="toast_invalid">Invalid ID Patient or password</string>
+    <string name="toast_finished">Refresh is finished</string>
+    <string name="toast_deconnected">Network problem</string>
+
+    <string name="fct_INSERT">Adding an appointment </string>
+    <string name="fct_UPDATE">Updating an appointment </string>
+    <string name="fct_DELETE">Deleting an appointement  </string>
+
+    <string name="choose_language">Choose a language...</string>
+
+
+
+
+    <string name="recevoir_notification">Receive notifications</string>
+    <string name="utiliser_agenda">Use Google Calendar</string>
+    <string name="ajouter_traitement_agenda">Add treatment reminders in Google Calendar</string>
+    <string name="ajouter_rappels_agenda">Add reminders in google Calendar</string>
+    <string name="choisir_couleur_rdv">Choose a color for appointments in Google Calendar</string>
+    <string name="choisir_couleur_traitement">Choose a color for treatments in Google Calendar</string>
+    <string name="choisir_couleur_activity">Choose a color for activities in Google Calendar</string>
+
+
+
+
+
+
+    <string-array name="color_name">
+        <item>Red</item>
+        <item>Magenta</item>
+        <item>Yellow</item>
+        <item>Green</item>
+        <item>Cyan</item>
+        <item>Blue</item>
+    </string-array>
+</resources>

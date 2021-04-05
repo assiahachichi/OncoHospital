@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerVertical="true"
+    android:background="@color/grayLight"
+    android:gravity="top"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity"
+    android:id="@+id/activity_main"
+    android:scrollbars="vertical"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <ImageView
+                android:layout_marginTop="70dp"
+                android:layout_alignParentTop="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:paddingBottom="50dp"
+                android:src="@mipmap/ic_onco_hospital_background" />
+
+
+                <EditText
+                    android:textSize="@dimen/text_size_large"
+                    android:fontFamily="sans-serif"
+                    android:id="@+id/editTextIdPatient"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/editTextPassword"
+
+                    android:autofillHints="username"
+                    android:drawableRight="@drawable/ic_patient"
+                    android:drawableTint="@color/purple_700"
+                    android:hint="ID Patient"
+                    android:inputType="numberDecimal"
+                    android:lineSpacingExtra="0sp"
+
+                    android:shadowColor="@color/purple_700"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/purple_700"
+                    android:textColorLink="@color/purple_700" />
+
+                <EditText
+                    android:textSize="@dimen/text_size_large"
+                    android:fontFamily="sans-serif"
+                    android:id="@+id/editTextPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginBottom="8dp"
+                    android:autofillHints="password"
+                    android:drawableRight="@drawable/ic_password"
+                    android:drawableTint="@color/purple_700"
+                    android:hint="Mot de passe"
+                    android:inputType="textPassword"
+                    android:shadowColor="@color/purple_700"
+                    android:textColor="@color/black"
+                    android:textColorHighlight="@color/purple_700"
+                    android:textColorHint="@color/purple_700"
+                    android:textColorLink="@color/purple_700" />
+
+                <Button
+
+                    android:textSize="@dimen/text_size_button"
+                    android:fontFamily="sans-serif"
+                    android:id="@+id/buttonLogin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="8dp"
+                    android:backgroundTint="@color/purple_700"
+                    android:drawableRight="@drawable/ic_login"
+                    android:drawableTint="@color/white"
+                    android:padding="8dp"
+                    android:shadowColor="@color/purple_700"
+                    android:text="Connexion"
+                    android:textColor="@color/white"
+                    android:textColorHighlight="@color/purple_700"
+                    android:textColorHint="@color/purple_700"
+                    android:textColorLink="@color/purple_700"
+                    app:backgroundTint="@color/purple_700"
+                    app:rippleColor="@color/purple_700"
+                    app:strokeColor="@color/purple_700" />
+
+
+
+
+            <Button
+                android:textSize="@dimen/text_size_button"
+                android:fontFamily="sans-serif"
+
+                android:id="@+id/buttonContact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="120dp"
+                android:padding="8dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:backgroundTint="@color/purple_700"
+                android:shadowColor="@color/purple_700"
+                android:text="Nous contacter"
+                android:textColor="@color/white"
+                android:drawableRight="@drawable/ic_contact_phone_"
+                android:drawableTint="@color/white"
+                android:textColorHighlight="@color/purple_700"
+                android:textColorHint="@color/purple_700"
+                android:textColorLink="@color/purple_700"
+                app:backgroundTint="@color/purple_700"
+                app:rippleColor="@color/purple_700"
+                app:strokeColor="@color/purple_700" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    </LinearLayout>
+
+
+

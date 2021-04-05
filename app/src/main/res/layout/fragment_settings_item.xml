@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="0dp"
+    app:cardUseCompatPadding="true"
+    app:cardBackgroundColor="@color/grayLight"
+    android:padding="30sp"
+    android:layout_margin="5dp"
+    app:cardPreventCornerOverlap="false"
+    android:background="@color/grayLight"
+    android:backgroundTint="@color/grayLight"
+    >
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="4dp"
+        >
+
+        <LinearLayout
+            android:id="@+id/layout_switch"
+            android:background="@color/grayLight"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginEnd="5dp"
+            android:focusableInTouchMode="true"
+            android:layout_marginRight="5dp"
+            android:maxWidth="1dp">
+
+            <Switch
+                android:id="@+id/settings_item_switch"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:thumbTint="@color/purple_700"/>
+
+        </LinearLayout>
+        <TextView
+            android:textSize="@dimen/text_size_large"
+            android:fontFamily="sans-serif"
+            android:layout_marginLeft="5dp"
+            android:layout_alignParentLeft="true"
+
+            android:layout_toLeftOf="@id/layout_switch"
+            android:id="@+id/settings_item_textView_titre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/grayLight"
+            android:backgroundTint="@color/grayLight"
+            android:text="Chimiooooooo "
+            android:shadowColor="@color/grayLight"
+            android:textColor="@color/purple_700"
+
+
+            android:layout_toStartOf="@id/layout_switch" />
+
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

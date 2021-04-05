@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragmentContacts.ContactsDetailFragment"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:scrollbars="vertical"
+
+    android:backgroundTint="@color/grayLight"
+    android:fillViewport="true">
+
+
+<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@color/purple_700"
+        android:layout_alignParentBottom="true">
+        <ImageButton
+            android:layout_alignParentLeft="true"
+            android:background="@color/purple_700"
+
+            android:id="@+id/contact_edit_text_size"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_text_format"
+
+            android:textColor="@color/white"
+            android:clickable="true"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:editable="false"
+            android:scaleType="fitCenter"
+
+            />
+        <Button
+            android:id="@+id/contact_button_previous"
+            android:layout_width="wrap_content"
+            android:text="@string/botton_precedent"
+            android:textSize="25dp"
+            android:layout_toRightOf="@+id/edit_text_size"
+            android:layout_toLeftOf="@+id/contact_image_button_speech"
+            android:layout_toEndOf="@+id/contact_edit_text_size"
+            android:layout_toStartOf="@+id/calendar_image_button_speech"
+            android:fontFamily="sans-serif"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:backgroundTint="@color/purple_700"
+            android:drawableRight="@drawable/ic_previous"
+            />
+        <ImageButton
+            android:id="@+id/contact_image_button_speech"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:scaleType="fitCenter"
+            android:background="@color/purple_700"
+            android:backgroundTint="@color/purple_700"
+            android:src="@drawable/ic_voice"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_alignParentRight="true"
+            />
+    </RelativeLayout>
+
+    <LinearLayout
+
+        android:id="@+id/layout_contact_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        >
+        <TextView
+
+            android:id="@+id/textView_title"
+            android:paddingTop="5dp"
+            android:paddingBottom="10dp"
+            android:textSize="@dimen/text_size_large"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/purple_700"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            />
+        <TextView
+            android:id="@+id/textView_Contact1"
+            android:textSize="@dimen/text_size_large"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            />
+
+
+        <LinearLayout
+            android:paddingTop="10dp"
+            android:id="@+id/layout_phone1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+            <ImageButton
+                android:id="@+id/imagePhone1"
+
+                android:scaleType="fitCenter"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:backgroundTint="@color/purple_700"
+                android:src="@drawable/ic_phone"
+                />
+            <TextView
+                android:id="@+id/editText_Phone1"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:ems="10"
+                android:enabled="false"
+                android:fontFamily="sans-serif"
+                android:inputType="phone"
+                android:maxLines="6"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_large" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_phone2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+            <ImageButton
+                android:id="@+id/imagePhone2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:backgroundTint="@color/purple_700"
+                android:src="@drawable/ic_phone" />
+
+            <TextView
+                android:id="@+id/editText_Phone2"
+                android:textSize="@dimen/text_size_large"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:ems="10"
+                android:inputType="phone"
+                android:enabled="false"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView_Contact2"
+            android:paddingTop="20dp"
+            android:textSize="@dimen/text_size_large"
+            android:fontFamily="sans-serif"
+
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <EditText
+            android:id="@+id/editTextTextEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textSize="@dimen/text_size_small"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/purple_700"
+            android:text="assia.hachichi@gmail.com"
+            android:focusable="false"
+            android:inputType="textEmailAddress" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/contact_button_previous2"
+        android:layout_width="wrap_content"
+        android:text="@string/botton_precedent"
+        android:textSize="25dp"
+        android:layout_toRightOf="@+id/edit_text_size"
+        android:layout_toLeftOf="@+id/contact_image_button_speech"
+        android:layout_toEndOf="@+id/contact_edit_text_size"
+        android:layout_toStartOf="@+id/calendar_image_button_speech"
+        android:fontFamily="sans-serif"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:backgroundTint="@color/purple_700"
+        android:drawableRight="@drawable/ic_previous"
+        />
+
+</LinearLayout>
+</ScrollView>
